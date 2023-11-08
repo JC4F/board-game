@@ -1,0 +1,33 @@
+// cSpell Settings
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en, vi",
+  "ignorePaths": [
+    "node_modules/",
+    "dist/",
+    "build/",
+    "coverage/",
+    "logs/",
+    "temp/",
+    "tmp/",
+    "cspell.json",
+    "*.config.*",
+    "Dockerfile",
+    "*.log",
+    "*.svg",
+    "tsconfig.json",
+    "pnpm-lock.yaml",
+    "lint.yml",
+    "test.yml",
+    ".gitignore",
+    "*.example"
+  ],
+  // words - list of words to be always considered correct
+  "words": ["reduxjs"],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  "flagWords": []
+}

@@ -66,5 +66,8 @@ pnpm-lock.yaml
 # testing
 /coverage
 
-# vscode
+.env
 .vscode
+yarn.lock
+.cspellcache
+.eslintcache
